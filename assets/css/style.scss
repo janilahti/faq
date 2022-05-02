@@ -1,4 +1,15 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    /* color: #383838; */
+}
+
+h1, h2, h3, a {
+    color: #006699;
+}
