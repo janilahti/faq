@@ -50,7 +50,7 @@ Radiator was developed by Australian-based *Open System Consultants (OSC)* 1998-
 
 ### [How Radiator licencing works?](#how-radiator-licencing-works)
 
-Radiator licencing is based on the number of servers used by the customer organisation. Radiator is available in different licence sizes starting from single server **Radiator Single Pack* and up to unlimited server count **Radiator Enterprise Pack**.
+Radiator licencing is based on the number of servers used by the customer organisation. Radiator is available in different licence sizes starting from single server **Radiator Single Pack** and up to unlimited server count **Radiator Enterprise Pack**.
 
 Radiator can be extended with **Radiator Carrier Pack**, **Radiator SIM Pack**, **Radiator Telco Pack** and **Radiator GBA/BSF Pack**. Licencing for these add-on *Diameter modules* is based on the number of subscribers or alternatively concurrent sessions depending on the use case. 
 
