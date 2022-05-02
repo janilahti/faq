@@ -1,12 +1,16 @@
-theme: cayman
+theme: minima
+plugins:
+- jekyll-remote-theme
 
 # Configurations
-title:            About FAQ
-longtitle:        Radiator AAA server Frequently Asked Questions
-author:           Jani Lahti
-email:            jani.lahti@iki.fi
+title: Radiator AAA Server FAQ
 description: >
-  Radiator AAA server Frequently Asked Questions, Radiator RADIUS Server
+  Radiator AAA Server Frequently Asked Questions, Radiator RADIUS Server FAQ
+
+show_downloads: false
+
+# show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+# google_analytics: [Your Google Analytics tracking ID]
 
 toc:
   enabled: true
