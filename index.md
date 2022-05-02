@@ -107,6 +107,12 @@ Full list can be seen from our technical documentation, but short listing is her
 Radiator supports all **the most used operating systems** (Unix, Linux, Windows and Mac OS). For a complete list for different operating systems and for example Linux distributions, please see [https://radiatorsoftware.com/supported-platforms/]().
 
 
+## [Installation](#installation)
+
+### [Can I run Radiator in a Docker container?](#run-docker)
+Radiator can be run in a Docker container. Starting from Radiator 4.25 we have included Dockerfiles with the distribution to make it easier for running Radiator in a container. Check out more details from our blog: [https://blog.radiatorsoftware.com/2020/10/radiator-dockerfiles-now-available.html]()
+
+
 ## [Deployment](#deployment)
 
 ### [Does Radiator offer repositories?](#radiator-repositories)
