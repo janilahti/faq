@@ -1,4 +1,10 @@
-theme: minima
+# could be just
+# theme: minima
+# but currently this gived old 2.5.1
+# jumping to 3.x, we need to use remote-theme directly from repo:
+# https://github.com/jekyll/minima/issues/411
+# set up remote_theme
+remote_theme: jekyll/minima
 plugins:
 - jekyll-remote-theme
 
@@ -7,10 +13,17 @@ title: Radiator AAA Server Frequently Asked Questions
 description: >
   Radiator AAA Server Frequently Asked Questions, Radiator RADIUS Server FAQ
 
-show_downloads: false
+author:
+  name: Radiator Software Oy
+  email: "info@radiatorsoftware.com"
 
-# show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
 # google_analytics: [Your Google Analytics tracking ID]
+
+minima:
+  social_links:
+    twitter: RadiatorAAA
+    github:  radiator-software
+    linkedin: radiator-software
 
 toc:
   enabled: true
@@ -30,5 +43,3 @@ kramdown:
     guess_lang:           true
 
 syntax_highlighter_style: colorful
-
-markdown_ext:     markdown,mkdown,mkdn,mkd,md
