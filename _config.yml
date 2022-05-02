@@ -22,8 +22,8 @@ author:
 minima:
   social_links:
     twitter: RadiatorAAA
-    github:  radiator-software
-    linkedin: radiator-software
+#    github:  radiator-software
+#    linkedin: radiator-software
 
 toc:
   enabled: true
