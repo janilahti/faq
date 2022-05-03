@@ -78,6 +78,7 @@ h3 a:hover, h3 a:active {
 }
 
 #toc-cont {
+    border-radius: 5px;
     border: 1px solid black;
     font-weight: bolder;
     background: lightblue;
@@ -102,17 +103,18 @@ h3 a:hover, h3 a:active {
         left: 10px;
         overflow: auto;
         height: 98vh;
-
         z-index: 1000;
         width: 23em;
-        border: 1px solid black;
-        font-weight: bolder;
-        background: lightblue;
     }
+    .site-header, .page-content, .site-footer {
+        padding-left: 25em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
     .site-header, .page-content, .site-footer {
         padding-left: 10em;
     }
-
 }
 
 @media only screen and (min-width: 1700px) {

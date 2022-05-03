@@ -1,7 +1,7 @@
 ---
 ---
 
-<div id="radiator-links" markdown="1">
+<div id="radiator-links" style="font-weight: bolder;" markdown="1">
 [Radiator Software ↗](https://radiatorsoftware.com/) &nbsp;&nbsp;&nbsp;&nbsp;
 [Radiator AAA Server ↗](https://radiatorsoftware.com/products/radiator/)
 </div>
