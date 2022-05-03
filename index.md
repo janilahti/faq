@@ -1,16 +1,17 @@
 ---
 ---
 
-
+<div id="radiator-links" markdown="1">
 [Radiator Software ↗](https://radiatorsoftware.com/) &nbsp;&nbsp;&nbsp;&nbsp;
 [Radiator AAA Server ↗](https://radiatorsoftware.com/products/radiator/)
+</div>
 
 Updated: {{ site.time | date: "%Y-%m-%d" }}
 
-<br />
+<div id="toc-cont" markdown="1">
 - TOC
 {:toc}
-<br />
+</div>
 
 ## [General questions](#general)
 
@@ -26,7 +27,7 @@ Radiator is not open source, but when you purchase Radiator, full source code is
 
 You can see selected Radiator licence prices at [https://radiatorsoftware.com/pricelist/](). Pricing for the Radiator add-on modules is provided upon request by contacting Radiator sales.
 
-### [Who is using Radiator](#who-is-using-radiator)
+### [Who is using Radiator?](#who-is-using-radiator)
 
 Radiator AAA server is used for user and network authentication by a huge range of different organisations: educational institutions, cities, governmental organisations, ISPs and telecom companies, managed service providers, utility companies, and private businesses in various fields such as hospitality, finance, defence and medical industries.
 
@@ -34,7 +35,7 @@ Radiator AAA server is used for user and network authentication by a huge range 
 
 Radiator has a large and active worldwide customer base. Please see our website for customer references: [https://radiatorsoftware.com/customers/]()
 
-### [Is there an online demo?](#online-demo)
+### [Is there an online demo available?](#online-demo)
 
 There is a Radiator Demo Cloud online demo - you can book a timeslot to go through typical Radiator use cases (or possibly your own use case) with Radiator experts.
 
@@ -197,3 +198,11 @@ You can find more information on page [https://radiatorsoftware.com/security-con
 All Radiator Software software packages are signed with a Radiator Software key. You can download the key from [https://radiatorsoftware.com/product-signing-keys/]()
 and use it to verify the authenticity of the downloaded packages. When using Radiator Software supplied repositories, this verification is done automatically upon install or upgrade.
 There are also SHA256 checksums available for each file to help check that the file was downloaded successfully.
+
+
+<script>
+// let toc=document.getElementById("markdown-toc")
+// let toc_cont=document.getElementById("toc-cont")
+// toc.parentNode.removeChild(toc);
+// toc_cont.appendChild(toc);
+</script>

@@ -10,10 +10,17 @@ body {
     /* color: #383838; */
 }
 
+/* brand colours */
 h1, h2, h3, a {
     color: #006699;
 }
 
+.site-title {
+    color: #006699;
+    font-weight: bolder;
+}
+
+/* diver lines over headers */
 h2, h3 {
     padding-top: 1.5em;
 }
@@ -50,10 +57,6 @@ h1:after
 }
 */
 
-.site-title {
-    color: #006699;
-    font-weight: bolder;
-}
 
 code {
     font-size: 0.9em;
@@ -64,4 +67,63 @@ code {
 
 .feed-subscribe {
     display: none;
+}
+
+/* clean up links on headers */
+h2 a:hover, h2 a:active,
+h3 a:hover, h3 a:active {
+    text-decoration: none;
+    cursor: default;
+}
+
+/* move TOC to left side if browser is wide enough */
+@media only screen and (min-width: 1400px) {
+    #toc-cont {
+        position:fixed;
+        top: 5px;
+        left: 10px;
+        overflow: auto;
+        height: 98vh;
+
+        z-index: 1000;
+        width: 23em;
+        border: 1px solid black;
+        font-weight: bolder;
+        background: lightblue;
+    }
+    .site-header, .page-content, .site-footer {
+        padding-left: 10em;
+    }
+    #toc-cont li {
+        list-style: none;
+        margin-left: -1em;
+        font-size: larger;
+    }
+    #toc-cont li li {
+        font-size: medium;
+        list-style: inside;
+        margin-left: 1em;
+        text-indent: -1.5em;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    #toc-cont {
+        width: 30em;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    #toc-cont {
+        width: 40em;
+    }
+}
+
+
+/* hide TOC when printing */
+@media print
+{
+    #radiator-links, #toc-cont, #toc-cont *
+    {
+        display: none !important;
+    }
 }
