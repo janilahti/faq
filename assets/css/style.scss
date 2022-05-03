@@ -23,6 +23,7 @@ h1, h2, h3, a {
 /* diver lines over headers */
 h2, h3 {
     padding-top: 1.5em;
+    font-weight: bolder;
 }
 
 h2:before {
@@ -76,8 +77,25 @@ h3 a:hover, h3 a:active {
     cursor: default;
 }
 
+#toc-cont {
+    border: 1px solid black;
+    font-weight: bolder;
+    background: lightblue;
+}
+#toc-cont li {
+    list-style: none;
+    margin-left: -1em;
+    font-size: larger;
+}
+#toc-cont li li {
+    font-size: medium;
+    list-style: inside;
+    margin-left: 1em;
+    text-indent: -1.5em;
+}
+
 /* move TOC to left side if browser is wide enough */
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1150px) {
     #toc-cont {
         position:fixed;
         top: 5px;
@@ -94,17 +112,7 @@ h3 a:hover, h3 a:active {
     .site-header, .page-content, .site-footer {
         padding-left: 10em;
     }
-    #toc-cont li {
-        list-style: none;
-        margin-left: -1em;
-        font-size: larger;
-    }
-    #toc-cont li li {
-        font-size: medium;
-        list-style: inside;
-        margin-left: 1em;
-        text-indent: -1.5em;
-    }
+
 }
 
 @media only screen and (min-width: 1700px) {
@@ -122,7 +130,7 @@ h3 a:hover, h3 a:active {
 /* hide TOC when printing */
 @media print
 {
-    #radiator-links, #toc-cont, #toc-cont *
+    #radiator-links, #social-links, #toc-cont, #toc-cont *
     {
         display: none !important;
     }
